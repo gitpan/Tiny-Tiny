@@ -7,8 +7,6 @@ META.yml
 Makefile.PL
 README
 dist.ini
-images/Elton_John_Tiny_Dancer.jpg
-images/tiny-tim_lg.jpg
 lib/Tiny/Tiny.pm
 t/00-check-deps.t
 t/00-compile.t

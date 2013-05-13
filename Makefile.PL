@@ -27,9 +27,9 @@ my %WriteMakefileArgs = (
     "File::Find" => 0,
     "File::Temp" => 0,
     "Test::CheckDeps" => "0.002",
-    "Test::More" => "0.88"
+    "Test::More" => "0.94"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

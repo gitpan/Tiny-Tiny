@@ -2,9 +2,9 @@ use strict;
 use warnings;
 package Tiny::Tiny;
 {
-  $Tiny::Tiny::VERSION = '0.001';
+  $Tiny::Tiny::VERSION = '0.002';
 }
-# git description: bdb95dc
+# git description: v0.001-5-g073b3a8
 
 BEGIN {
   $Tiny::Tiny::AUTHORITY = 'cpan:ETHER';
@@ -18,7 +18,9 @@ __END__
 
 =pod
 
-=for :stopwords Karen Etheridge
+=encoding utf-8
+
+=for :stopwords Karen Etheridge irc
 
 =head1 NAME
 
@@ -26,7 +28,7 @@ Tiny::Tiny - minimal minimalism
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -39,7 +41,8 @@ This module does the tiniest thing of all -- nothing!
 Given all the recent releases of C<*::Tiny> modules, I felt like I needed to
 get in on the action while there was still part of the namespace left.
 
-=for html <center><img src="https://raw.github.com/karenetheridge/Tiny-Tiny/master/images/tiny-tim_lg.jpg" alt="Tiny Tim" width="216" height="267"/> <img src="https://raw.github.com/karenetheridge/Tiny-Tiny/master/images/Elton_John_Tiny_Dancer.jpg" alt="Tiny Dancer" width="260" height="320"/></center>
+=for html <center><img src="https://raw.github.com/karenetheridge/Tiny-Tiny/master/images/tiny-tim_lg.jpg" alt="Tiny Tim" width="227" height="280"/>
+<img src="https://raw.github.com/karenetheridge/Tiny-Tiny/master/images/Elton_John_Tiny_Dancer.jpg" alt="Tiny Dancer" width="276" height="280"/></center>
 
 =head1 SUPPORT
 
@@ -65,6 +68,10 @@ L<Try::Tiny>
 =item *
 
 L<Role::Tiny>
+
+=item *
+
+L<Capture::Tiny>
 
 =item *
 
